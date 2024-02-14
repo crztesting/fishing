@@ -4,24 +4,17 @@ while task.wait(1) do
         [1] = "Platinum Fishing Rod"
     }
     game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("FishingMerchant_PurchaseRod"):InvokeServer(unpack(args))
-end
-
-while task.wait(1) do
 
     local args = {
         [1] = "Emerald Fishing Rod"
     }
     game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("FishingMerchant_PurchaseRod"):InvokeServer(unpack(args))
-end
 
-while task.wait(1) do
     local args = {
         [1] = "Sapphire Fishing Rod"
     }
     game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("FishingMerchant_PurchaseRod"):InvokeServer(unpack(args))
-end
 
-while task.wait(1) do
     local args = {
         [1] = "Amethyst Fishing Rod"
     }
