@@ -1,4 +1,4 @@
-while task.wait(1) do
+while task.wait(3600) do
 
     local args = {
         [1] = "Platinum Fishing Rod"
