@@ -1,7 +1,7 @@
 repeat wait() until game:IsLoaded()
 task.spawn(function()
 getgenv().config = {
-    placetoDig = "Digsite", -- Digsite // AdvancedDigsite
+    placetoDig = "AdvancedDigsite", -- Digsite // AdvancedDigsite
     autoDig = true,
     autoPresents = true,
     DigESP = true,
