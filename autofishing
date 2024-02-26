@@ -11,9 +11,9 @@ getgenv().config = {
     sendShards = true,
 
     sendDiamonds = true,
-    minShards = 200,
-    minDiamonds = 3120000,
-    keepDiamonds = 120000,
+    minShards = 100,
+    minDiamonds = 2040000,
+    keepDiamonds = 40000,
     setDelay = true,
     numDelay = 10, 
 
