@@ -1,12 +1,27 @@
 repeat wait() until game:IsLoaded()
 task.spawn(function()
 getgenv().config = {
-    placetoDig = "AdvancedDigsite", -- Digsite // AdvancedDigsite
-    autoDig = true,
+    autoFish = true,
+    placetoFish = "AdvancedFishing",
     autoPresents = true,
-    DigESP = true,
+    autoClaimMail = true,
+    userToMail = "comer_item",
+    autoMail = true,
+    sendHuges = true,
+    sendShards = true,
+
+    sendDiamonds = true,
+    minShards = 200,
+    minDiamonds = 3120000,
+    keepDiamonds = 120000,
+    setDelay = true,
+    numDelay = 10, 
+
+    randomDelay = true,
+    minNum = 1,
+    maxNum = 5,
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bfa169bb55b3d0449758066d83e8dd50.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/068bcd75f1957609b13997179b0ec1d8.lua"))()
 end)
 
 task.spawn(function()
